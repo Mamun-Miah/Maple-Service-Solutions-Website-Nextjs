@@ -65,10 +65,11 @@ export function Navbar() {
         <div className="flex items-center justify-between px-4 py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center text-primary-foreground font-bold text-lg">
+            {/* <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center text-primary-foreground font-bold text-lg">
               M
             </div>
-            <span className="font-semibold text-lg">Maple</span>
+            <span className="font-semibold text-lg">Maple</span> */}
+            <Image src="/Maple-Service-Solution-logo.png" alt="logo" height={120} width={120} />
           </Link>
 
           {/* Actions */}
