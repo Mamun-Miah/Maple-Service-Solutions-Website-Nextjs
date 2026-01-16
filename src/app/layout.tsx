@@ -3,6 +3,7 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/providers/theme-provider";
+import SmoothScrollWrapper from "@/components/ui/SmoothScrollWrapper";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -91,6 +92,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       </head>
+      <SmoothScrollWrapper>
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} antialiased bg-background text-foreground`}
       >
@@ -104,6 +106,7 @@ export default function RootLayout({
           <Toaster />
         </ThemeProvider>
       </body>
+      </SmoothScrollWrapper>
     </html>
   );
 }

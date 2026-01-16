@@ -112,7 +112,7 @@ export default function PrivacyPage() {
             <p className="text-muted-foreground leading-relaxed">
               If you have any questions about this Privacy Policy, please contact us at:
             </p>
-            <p className="text-primary font-medium">hello@mapleservice.com</p>
+            <p className="text-primary font-medium">contact@mapleitfirm.com</p>
           </section>
 
           <div className="glass p-6 rounded-2xl text-center">

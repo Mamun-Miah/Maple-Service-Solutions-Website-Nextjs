@@ -136,7 +136,7 @@ export default function TermsPage() {
               If you have any questions about these Terms of Service, please contact us:
             </p>
             <div className="space-y-2">
-              <p className="text-primary font-medium">Email: hello@mapleservice.com</p>
+              <p className="text-primary font-medium">Email: contact@mapleitfirm.com</p>
               <p className="text-muted-foreground">Address: Gulshan 1, Dhaka 1212, Bangladesh</p>
             </div>
           </section>

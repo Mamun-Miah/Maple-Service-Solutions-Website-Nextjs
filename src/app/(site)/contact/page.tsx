@@ -163,7 +163,7 @@ export default function ContactPage() {
 
               <div className="space-y-4">
                 <a
-                  href="mailto:hello@mapleservice.com"
+                  href="mailto:contact@mapleitfirm.com"
                   className="glass p-6 rounded-2xl card-hover flex gap-4 items-start group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center text-primary flex-shrink-0">
@@ -172,7 +172,7 @@ export default function ContactPage() {
                   <div>
                     <div className="font-semibold mb-1">Email Us</div>
                     <div className="text-muted-foreground text-sm group-hover:text-foreground transition-colors">
-                      hello@mapleservice.com
+                      contact@mapleitfirm.com
                     </div>
                   </div>
                 </a>
