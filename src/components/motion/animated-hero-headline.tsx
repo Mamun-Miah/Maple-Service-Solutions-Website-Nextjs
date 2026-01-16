@@ -29,7 +29,7 @@ export function HeroHeadline({ className }: Props) {
 
   // Intelligent injection timing
   const buildDelay = delays.Build; // when Build appears
-  const intelligentStart = buildDelay + 0.35; // after Build is visible
+  const intelligentStart = buildDelay + 0.55; // after Build is visible
   const intelligentDur = 0.55;
 
   if (reduce) {
