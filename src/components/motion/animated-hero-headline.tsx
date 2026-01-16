@@ -73,7 +73,7 @@ export function HeroHeadline({ className }: Props) {
               }}
             >
               <ShinyText
-                text="intelligent"
+                text="Intelligent"
                 speed={1.9}
                 delay={0}
                 color="#6366f1"
