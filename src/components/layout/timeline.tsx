@@ -54,7 +54,7 @@ export function Timeline({ items, className }: TimelineProps) {
 
             {/* Number */}
             <div className="hidden md:block flex-shrink-0 pt-2">
-              <div className="text-6xl font-bold text-muted-foreground/10">
+              <div className="text-6xl font-bold text-muted-foreground/80">
                 0{index + 1}
               </div>
             </div>

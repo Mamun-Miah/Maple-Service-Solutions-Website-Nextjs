@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Github, Linkedin, Twitter } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
+import Image from 'next/image'
 
 const footerLinks = {
   products: [
@@ -34,10 +35,11 @@ export function Footer() {
             {/* Brand Column */}
             <div className="lg:col-span-1">
               <Link href="/" className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center text-primary-foreground font-bold text-xl">
+                {/* <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center text-primary-foreground font-bold text-xl">
                   M
-                </div>
-                <span className="font-semibold text-xl">Maple Service Solution</span>
+                </div> */}
+                {/* <span className="font-semibold text-xl">Maple Service Solution</span> */}
+                <Image src="/Maple-Service-Solution-logo.png" alt="logo" height={120} width={120} />
               </Link>
               <p className="text-muted-foreground text-sm leading-relaxed mb-6">
                 We build intelligent products that define markets. AI, platforms, design, engineering, and growth systems under one roof.

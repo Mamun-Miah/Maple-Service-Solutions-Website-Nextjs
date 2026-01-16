@@ -91,7 +91,7 @@ export default function HomePage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1.4 }}
-            className="mt-20"
+            className="mt-15"
           >
             <p className="text-xs text-muted-foreground mb-6 uppercase tracking-wider">
               Trusted by innovative companies
@@ -370,10 +370,10 @@ export default function HomePage() {
           {/* Maple Promise Callout */}
           <div className="aurora-gradient-subtle p-8 md:p-12 rounded-3xl text-center">
             <h3 className="text-3xl md:text-4xl font-bold mb-4">The Maple Promise</h3>
-            <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-16">
+            <div className="flex flex-col md:flex-row justify-center  gap-8 md:gap-16">
               {["Clarity", "Craft", "Scale"].map((item, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-4xl md:text-5xl font-bold text-gradient mb-2">
+                <div key={index} className="text-center ">
+                  <div className="text-4xl md:text-5xl text-[#CDC1B4] font-bold mb-2">
                     0{index + 1}
                   </div>
                   <div className="text-lg font-semibold">{item}</div>

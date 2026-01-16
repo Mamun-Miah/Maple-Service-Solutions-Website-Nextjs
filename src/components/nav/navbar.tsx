@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { ThemeToggle } from "@/components/components/theme-toggle"
-
+import Image from 'next/image'
 const navItems = [
   { href: "/products", label: "Products" },
   { href: "/services", label: "Services" },
@@ -29,10 +29,7 @@ export function Navbar() {
         <div className="content-max w-full flex items-center justify-between px-6 py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center text-primary-foreground font-bold text-lg">
-              M
-            </div>
-            <span className="font-semibold text-lg">Maple</span>
+           <Image src="/Maple-Service-Solution-logo.png" alt="logo" height={120} width={120} />
           </Link>
 
           {/* Nav Links */}

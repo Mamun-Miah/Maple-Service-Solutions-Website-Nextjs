@@ -30,7 +30,7 @@ export function StatsRow({ stats, className }: StatsRowProps) {
           transition={{ duration: 0.5, delay: index * 0.1 }}
           className="text-center md:text-left"
         >
-          <div className="text-3xl md:text-4xl font-bold text-gradient mb-1">
+          <div className="text-3xl md:text-4xl font-bold text-gray-300 mb-1">
             {stat.value}
           </div>
           <div className="text-sm font-medium text-foreground mb-1">
