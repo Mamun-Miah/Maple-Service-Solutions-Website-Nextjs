@@ -78,7 +78,7 @@ export default function ServicesPage() {
               },
             ].map((step, index) => (
               <div key={index} className="glass p-6 rounded-2xl">
-                <div className="text-4xl font-bold text-gradient mb-4">
+                <div className="text-4xl font-bold  mb-4">
                   {step.number}
                 </div>
                 <h3 className="font-semibold text-lg mb-2">{step.title}</h3>

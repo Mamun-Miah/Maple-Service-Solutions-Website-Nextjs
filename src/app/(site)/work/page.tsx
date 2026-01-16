@@ -62,7 +62,7 @@ export default function WorkPage() {
               { label: "Long-term Partnerships", value: "85%" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-gradient mb-2">
+                <div className="text-4xl md:text-5xl font-bold  mb-2">
                   {stat.value}
                 </div>
                 <div className="text-sm text-muted-foreground">
